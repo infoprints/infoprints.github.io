@@ -15,12 +15,15 @@ body {
   color: #595959;
 }
 
+.formstyle{
+
+}
 form { 
   max-width:800px; 
   margin-top:10px auto;
   margin-bottom:10px auto;
   float:left;
-  display: inline-block;
+  
   text-align: left;
   
 }
