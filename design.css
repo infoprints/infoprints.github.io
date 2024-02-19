@@ -11,7 +11,20 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body { background:rgb(30,30,40); }
-form { max-width:420px; margin:50px auto; }
+form { 
+  max-width:420px; 
+  margin:50px auto;
+  float:left;
+  
+}
+input{
+
+  max-width:420px; 
+  float:left;
+  padding:10px 10px 10px 30px;
+  font: 11px/20px'Open Sans', Verdana, Helvetica, sans-serif;
+  margin-bottom:10px;
+}
 
 .feedback-input {
   color:white;
