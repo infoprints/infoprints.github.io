@@ -101,18 +101,6 @@ html {
 
 
 
-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .project-grid img {
   margin-bottom: 0;
   -o-object-fit: cover;
@@ -182,26 +170,6 @@ header {
   height: 100%; 
   margin: auto calc(50% - 50vw);
   
-}
-
-main {
-  padding: 3rem var(--padding);
-}
-
-footer {
-  margin-top: 10rem;
-  padding: 6rem var(--padding);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
 }
 
 
