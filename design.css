@@ -14,9 +14,11 @@ body { background-color:#595959;
       color: #595959;
      }
 form { 
-  max-width:420px; 
+  max-width:600px; 
   margin:50px auto;
   float:left;
+  display: inline-block;
+  text-align: left;
   
 }
 input{
@@ -47,11 +49,7 @@ input{
 
 .feedback-input:focus { border:2px solid #CC4949; }
 
-textarea {
-  height: 150px;
-  line-height: 150%;
-  resize:vertical;
-}
+
 
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
