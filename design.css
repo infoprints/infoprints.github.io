@@ -6,7 +6,7 @@ body {
 
 
 .formstyle { 
-  max-width:800px; 
+
   margin-top:10px auto;
   margin-bottom:10px auto;
   float:left;
@@ -46,7 +46,7 @@ body {
 
 [type="submit"] {
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
-  width: 100%;
+  width: 420px;
   background:#CC6666;
   border-radius:5px;
   border:0;
