@@ -10,7 +10,9 @@
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-body { background:#000000; }
+body { background-color:#595959;
+      color: #595959;
+     }
 form { 
   max-width:420px; 
   margin:50px auto;
@@ -92,13 +94,7 @@ html {
   }
 }
 
-body {
-  background: #1a1a1a;
-  color: white;
-  margin: 0 auto;
-  max-width: 150rem;
-  overflow-x: hidden;
-}
+
 
 h1,
 h2,
@@ -118,25 +114,7 @@ h1 {
   line-height: 1.3;
 }
 
-a {
-  text-decoration: none;
-  color: white;
-  -webkit-filter: brightness(0.8);
-  filter: brightness(0.8);
-  -webkit-transition: 150ms;
-  -o-transition: 150ms;
-  transition: 150ms;
-}
 
-a,
-a * {
-  border-radius: 0.15rem;
-}
-
-a:hover {
-  -webkit-filter: brightness(1.09);
-  filter: brightness(1.09);
-}
 
 header {
   display: -webkit-box;
@@ -150,20 +128,8 @@ header {
   align-items: center;
 }
 
-header a {
-  font-size: 2.2rem;
-  color: white;
-  -webkit-filter: brightness(0.8);
-  filter: brightness(0.8);
-  padding: var(--padding);
-}
 
-header nav ul {
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
+
 
 .grid {
   display: -ms-grid;
@@ -249,13 +215,6 @@ footer {
   flex-wrap: wrap;
 }
 
-footer > * {
-  margin-top: var(--padding);
-}
-
-footer h2 {
-  font-size: 4.5rem;
-}
 
 .button {
   padding: 2rem 3rem;
