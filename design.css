@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
@@ -14,7 +14,6 @@ body {
   display: flex;
   justify-content: space-between;
   padding: 20px;
-  background-color: white; /* Add a background color for better visibility */
 }
 
 form {
