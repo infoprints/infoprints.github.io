@@ -14,8 +14,9 @@ body { background-color:#595959;
       color: #595959;
      }
 form { 
-  max-width:600px; 
-  margin:50px auto;
+  max-width:800px; 
+  margin-top:10px auto;
+  margin-bottom:10px auto;
   float:left;
   display: inline-block;
   text-align: left;
@@ -34,10 +35,10 @@ input{
   color:white;
   font-family: Helvetica, Arial, sans-serif;
   font-weight:500;
-  font-size: 18px;
+  font-size: 12px;
   border-radius: 5px;
   line-height: 22px;
-  background-color: transparent;
+  background-color: white;
   border:2px solid #CC6666;
   transition: all 0.3s;
   padding: 13px;
