@@ -10,7 +10,7 @@ body {
   margin-top:10px auto;
   margin-bottom:10px auto;
   float:left;
-  
+  display: block;
   text-align: left;
   
 }
@@ -60,7 +60,9 @@ body {
 }
 [type="submit"]:hover { background:#CC4949; }
 
-
+.grid{
+  display: block;
+}
 
 .button {
   padding: 10px 10px;
