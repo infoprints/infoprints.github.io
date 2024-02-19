@@ -10,9 +10,14 @@
 
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-body { background-color:#595959;
-      color: #595959;
-     }
+body { 
+  background-color:#595959;
+  color: #595959;
+}
+.intro{
+  color: white;
+  
+}
 form { 
   max-width:800px; 
   margin-top:10px auto;
@@ -114,13 +119,7 @@ h1 {
 }
 
 
-.intro {
-  -ms-grid-column: 1;
-  grid-column-start: 1;
-  -ms-grid-column-span: 5;
-  grid-column-end: span 5;
-  margin-top: var(--padding);
-}
+
 
 header {
   display: -webkit-box;
@@ -242,12 +241,7 @@ footer {
   :root {
     font-size: 9px;
   }
-  .intro {
-    -ms-grid-column: 1;
-    grid-column-start: 1;
-    -ms-grid-column-span: 7;
-    grid-column-end: span 7;
-  }
+  
   .project-grid {
     grid-row-gap: 16rem;
   }
